@@ -3,30 +3,92 @@
     <head>
         <title>Solution for Module 3 </title>
         <meta charset="utf-8">
-	      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        -->
+        <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
         <!--link to style sheet written by me-->
         <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <!--Google font Roboto-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <BODY>    
-        <h1> My Restaurant - Menu</h1>
+     
+    
+      <!--Bootstrap code here-->
+      <header class="nav-header">
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <div class="navbar-brand">
+                <a href="index.html">
+                <span class="nav-brand">Food, LLC</span></a>
+              </div>
+    
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+               <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                <li class="text-center">
+                  <a href="#idliwada"><p class="item">Idliwada</p></a>
+                  <hr class="visible-xs">
+                </li>            
+                <li class="text-center">
+                  <a href="#bonda"><p class="item">Bonda</p></a>
+                  <hr class="visible-xs">
+                </li>
+                <li class="text-center s">
+                  <a href="#utappam"><p class="item">Utappam</p></a>
+                </li>
+              </ul> 
+            </div>
+          </div>
+        </nav>
+        </header>
+     
+      <!--Bootstrap ends here-->
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
+      <!--My header-->
+      <h1 class="text-center"> My Restaurant - Menu</h1>
+        <div class="row container container-fluid">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="idliwada">
             <div class="section">
-                <h2 class="c">Idliwada</h2>
-                <p>Wash and Soak Urad dal 5 to 6 hours. Grind Urad dal and soaked Poha to get smooth batter by adding less water.wash idli sooji rest for 2 minutes add groud Urad dal mixture, mix well and keep aside upto 6 to 8 hours for fermentation. Add salt and mix well. Grease Idli plate with ghee pour ladle of Idli batter steam 15 minutes in preheated cooker. Gently remove from the plate.</p>
+                <h2 text-align="center">Idliwada</h2>
+                <p class="paracontent">Wash and Soak Urad dal 5 to 6 hours. Grind Urad dal and soaked Poha to get smooth batter by adding less water.wash idli sooji rest for 2 minutes add groud Urad dal mixture, mix well and keep aside upto 6 to 8 hours for fermentation. Add salt and mix well. Grease Idli plate with ghee pour ladle of Idli batter steam 15 minutes in preheated cooker. Gently remove from the plate.
+                  Wash and Soak Urad dal 5 to 6 hours. Grind Urad dal and soaked Poha to get smooth batter by adding less water.wash idli sooji rest for 2 minutes add groud Urad dal mixture, mix well and keep aside upto 6 to 8 hours for fermentation. Add salt and mix well. Grease Idli plate with ghee pour ladle of Idli batter steam.
+                </p>
             </div>
-           </div>
-           <div class="col-lg-4 col-md-6 col-sm-12">
+          </div>
+          
+           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="bonda">
              <div class="section">
-               <h2 class="b">Bonda</h2>
-               <p>Make a smooth and a fluffy semi thick batter with all the ingredients mentioned. Cover and keep aside for about 15 minutes or a little more.Dip each of the Egg piece in the batter. See to it that it coats well. Deep fry in hot Oil on a medium high heat. Serve them piping hot with any dip of your choice. Also don't forget to sprinkle some Chat Masala on top. Enjoy!</p>
+               <h2 text-align="center">Bonda</h2>
+               <p class="paracontent">Make a smooth and a fluffy semi thick batter with all the ingredients mentioned. Cover and keep aside for about 15 minutes or a little more.Dip each of the Egg piece in the batter. See to it that it coats well. Deep fry in hot Oil on a medium high heat. Serve them piping hot with any dip of your choice. Also don't forget to sprinkle some Chat Masala on top. Enjoy!
+                Make a smooth and a fluffy semi thick batter with all the ingredients mentioned. Cover and keep aside for about 15 minutes or a little more.Dip each of the Egg piece in the batter. See to it that it coats well. Deep fry in hot Oil on a medium high heat. Serve them piping hot with any dip of your choice. Also don't forget to sprinkle some Chat Masala on top.
+               </p>
             </div>
            </div>
-           <div class="col-lg-4 col-md-12 col-sm-12">
+           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="utappam">
              <div class="section">
-               <h2 class="s">Utappam</h2>
-               <p>Soak urad dal and rice seperately for 3 hours. Grind them seperately by adding very little water. Remove both in the same bowl and mix well. Cover and let it ferment overnight. Next morning add salt to the batter and mix well.Heat a dosa pan or a non stick pan. Grease with some oil. Spread a ladleful of batter. Sprinkle chopped onion, capsicum and tomatoes. </p>
+               <h2 text-align="center">Utappam</h2>
+               <p class="paracontent">Soak urad dal and rice seperately for 3 hours. Grind them seperately by adding very little water. Remove both in the same bowl and mix well. Cover and let it ferment overnight. Next morning add salt to the batter and mix well.Heat a dosa pan or a non stick pan. Grease with some oil. Spread a ladleful of batter. Sprinkle chopped onion, capsicum and tomatoes.
+                Soak urad dal and rice seperately for 3 hours. Grind them seperately by adding very little water. Remove both in the same bowl and mix well. Cover and let it ferment overnight. Next morning add salt to the batter and mix well.Heat a dosa pan or a non stick pan. Grease with some oil. Spread a ladleful of batter. Sprinkle masala.
+               </p>
             </div>
            </div>
+          </div>
+            <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
     </body>
 </html>
