@@ -1,2 +1,2 @@
-# web-programming
-For WPS lab purpose
+# Full Stack Web Development
+For FSWD lab purpose
